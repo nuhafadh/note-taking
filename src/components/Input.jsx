@@ -2,9 +2,9 @@
 
 export const Input = () => {
     return (
-        <div>
+        <div className="flex gap-4">
             <input />
-            <button>Create</button>
+            <button className="w-fit px-12">Create</button>
         </div>
     )
 }
